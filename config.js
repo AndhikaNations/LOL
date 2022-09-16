@@ -3,21 +3,21 @@
 //Dalam file _menunya.js
 
 //『 Utama 』 //
-global.owner = ['6282xxxxxx']  // isi jika perlu
-global.mods = ['6282xxxxxx']   // isi jika perlu
-global.prems = ['6282xxxxxx']  // isi jika perlu
+global.owner = ['62895371897020']  // isi jika perlu
+global.mods = ['62895371897020']   // isi jika perlu
+global.prems = ['62895371897020']  // isi jika perlu
 
 //Isi dengan nama dan nomor lu//
-global.nameowner = '⫹⫺ OWNER' // isi nama kalian bebas
-global.numberowner = '6282xxxxxx' // isi nomor kalian dengan awalan seperti di contoh 
-global.instagram = 'https://instagram.com/prm2.0' // isi Instagram kalian harus link
-global.github = 'https://github.com/BOTCAHX' // gausah di isi juga gpp bro
-global.dana = '6282xxxxxx' // isi dengan nomor dana yg kamu punya 
-global.pulsa = '6282xxxxxx' // isi dengan nomor pulsa hp kalian
-global.gopay = ''
+global.nameowner = '⫹⫺ ANDHIKA' // isi nama kalian bebas
+global.numberowner = '62895371897020' // isi nomor kalian dengan awalan seperti di contoh 
+global.instagram = 'https://instagram.com/andhikanations_' // isi Instagram kalian harus link
+global.github = 'https://github.com/AndhikaNations' // gausah di isi juga gpp bro
+global.dana = '62895371897020' // isi dengan nomor dana yg kamu punya 
+global.pulsa = '62895371897020' // isi dengan nomor pulsa hp kalian
+global.gopay = '62895371897020'
 
 //Name Bot & Grouplink//
-global.namebot = 'R-txzyMd'
+global.namebot = 'ABXBOT-Md'
 global.gc = 'https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL'
 global.web = 'https://myblogxyz.netlify.app' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
@@ -27,10 +27,10 @@ global.fotonya1 = 'https://botcahx-rest-api.herokuapp.com/api/textpro/marvel-stu
 global.fotonya2 = 'https://botcahx-rest-api.herokuapp.com/api/textpro/marvel-studios?text=List%20&text2=Menu' 
 global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© R-TXZY-MD'
+global.wm = '© ABX-BOT-MD'
 global.watermark = wm
-global.wm2 = '⫹⫺ R-TXZY-MD'
-global.wm3 = '© R-TXZY-MD'
+global.wm2 = '⫹⫺ ABX-BOT-MD'
+global.wm3 = '© ABX-BOT-MD'
 global.wm4 = '© 2021/2022'
 global.htki = '––––––『' 
 global.htka = '』––––––'
@@ -42,7 +42,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
 global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nR-TXZY-MD'
+global.author = 'Bot WhatsApp\nABX-BOT-MD'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
