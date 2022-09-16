@@ -9,7 +9,7 @@
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
     let ar = ['list', 'menu']
     let yo = `Hai @${m.sender.split('@')[0]} 👋`
-    let tio = `*© RTXZY-TEAM*`
+    let tio = `*© ABX-BOT*`
     let liv = `CLICK HERE`
     const sections = [ {
       	title: `Aktif ${uptime} || Jam ${time} WIB`,
