@@ -7,13 +7,42 @@ const CFonts = require('cfonts')
 const Readline = require('readline')
 const yargs = require('yargs/yargs')
 const rl = Readline.createInterface(process.stdin, process.stdout)
+const makeWASocket = require("@adiwajshing/baileys").default
+const qrcode = require("qrcode-terminal")
+const { delay, useSingleFileAuthState } = require("@adiwajshing/baileys")
+const { state, saveState } = useSingleFileAuthState('./session.data.json')
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 
-CFonts.say('BOT BY\n BOTCAHX', {
+function qr() {
+  let session = makeWASocket({
+    auth: state,
+    printQRInTerminal: true,
+  })
+  session.ev.on("connection.update", async (s) => {
+    const { connection, lastDisconnect } = s
+    if (connection == "open") {
+      await delay(1000 * 10)
+      process.exit(0)
+    }
+    if (
+      connection === "close" &&
+      lastDisconnect &&
+      lastDisconnect.error &&
+      lastDisconnect.error.output.statusCode != 401
+    ) {
+      qr()
+    }
+  })
+  session.ev.on('creds.update', saveState)
+  session.ev.on("messages.upsert", () => { })
+}
+qr()
+
+CFonts.say('BOT BY\n ANDHIKA', {
   colors: ['blueBright','yellowBright'],                                        font: 'block',
   align: 'center',
 })
-CFonts.say(`BY BOTCAHX`, {                                            
+CFonts.say(`BY ANDHIKA`, {                                            
 colors: ['yellow'],                                                           
 font: 'console',                                                              align: 'center',
 })
